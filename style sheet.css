@@ -1,0 +1,37 @@
+/* Fiche de style CSS */
+
+/* Sélecteur d'élément */
+body {
+    background-color: #000000; /* Couleur d'arrière-plan du corps */
+    font-family: Arial, sans-serif; /* Police de caractères du corps */
+    color:white;
+}
+
+/* Sélecteur de classe */
+.texte-rouge {
+    color: rgb(255, 0, 0); /* Couleur du texte */
+}
+
+/* Sélecteur d'ID */
+#conteneur-principal {
+    width: 80%; /* Largeur du conteneur principal */
+    margin: auto; /* Centrer le conteneur principal */
+}
+
+/* Sélecteur d'attribut */
+a[target="_blank"] {
+    background-color: yellow; /* Couleur d'arrière-plan des liens qui s'ouvrent dans un nouvel onglet */
+}
+
+/* Sélecteur de pseudo-classe */
+a:hover {
+    color: orange; /* Couleur des liens au survol */
+}
+
+h1 {
+    color: yellow;
+}
+
+h2 {
+    color: green
+}
