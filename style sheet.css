@@ -38,7 +38,7 @@ th, td {
 }
 
 p {
-  background-color: rbga(243,85,85,0.4);
+  background-color: rgba(243,85,85,0.4);
   padding: 10px;
   border-radius: 15px;
 }
