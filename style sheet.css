@@ -32,17 +32,9 @@ a:hover {
 h1 {
     color: yellow;
 }
-table {
-  border: solid black 1px;
-}
 
-td {
-  border: solid black 1px;
-  color:black;
-}
-
-th {
-  border: solid black 1px;
+th, td {
+  border-bottom: 1px solid #ddd;
 }
 
 p {
