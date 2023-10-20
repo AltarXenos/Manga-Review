@@ -35,6 +35,15 @@ h1 {
 table {
   border: solid black 1px;
 }
+
+td {
+  border: solid black 1px;
+}
+
+th {
+  border: solid black 1px;
+}
+
 h2 {
     color: green
 }
