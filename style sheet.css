@@ -37,12 +37,11 @@ h1 {
   width: calc(30ch + 60px);
 }
 
-th, td {
-  border: solid 1px black;
-}
-
 table {
   border-collapse: collapse;
+}
+
+td, th {
   border: none;
 }
 
