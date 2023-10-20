@@ -2,7 +2,7 @@
 
 /* Sélecteur d'élément */
 body {
-    background-image: url('Background.jpg');
+  background-image: url('Background.jpg');
   background-size: cover; /* Ajuste la taille de l'image pour remplir tout l'élément */
   background-repeat: no-repeat; /* Empêche la répétition de l'image */
   background-attachment: fixed; /* Fixe l'image en arrière-plan (optionnel) */
