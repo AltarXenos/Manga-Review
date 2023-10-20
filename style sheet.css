@@ -31,6 +31,9 @@ a:hover {
 
 h1 {
     color: #ccda00;
+  background-color: rgba(243,85,85,0.8);
+  padding: 10px;
+  border-radius: 5px;
 }
 
 th, td {
@@ -41,6 +44,8 @@ p {
   background-color: rgba(243,85,85,0.8);
   padding: 10px;
   border-radius: 15px;
+  word-wrap: break-word;
+  width: 200px;
 }
 
 h2 {
