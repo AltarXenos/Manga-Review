@@ -30,10 +30,10 @@ a:hover {
 }
 
 h1 {
-    color: #ccda00;
-  background-color: rgba(243,85,85,0.8);
+  background-color: #ccda00;
   padding: 10px;
-  border-radius: 5px;
+  display: inline-block;
+  width: calc(10ch + 20px);
 }
 
 th, td {
