@@ -33,6 +33,7 @@ h1 {
   background-color: #ccda00;
   padding: 10px;
   display: inline-block;
+  border-radius: 15px;
   width: calc(30ch + 60px);
 }
 
