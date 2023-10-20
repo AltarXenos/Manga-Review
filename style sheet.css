@@ -30,7 +30,7 @@ a:hover {
 }
 
 h1 {
-    color: yellow;
+    color: #ccda00;
 }
 
 th, td {
@@ -38,11 +38,11 @@ th, td {
 }
 
 p {
-  background-color: rgba(243,85,85,0.4);
+  background-color: rgba(243,85,85,0.8);
   padding: 10px;
   border-radius: 15px;
 }
 
 h2 {
-    color: green
+    color: green;
 }
