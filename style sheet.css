@@ -41,10 +41,14 @@ td {
   color:black;
 }
 
-
-
 th {
   border: solid black 1px;
+}
+
+p {
+  background-color: #f2f2f2;
+  padding: 10px;
+  outline: 5px solid #ccc;
 }
 
 h2 {
