@@ -2,9 +2,10 @@
 
 /* Sélecteur d'élément */
 body {
-    background-color: #000000; /* Couleur d'arrière-plan du corps */
-    font-family: Arial, sans-serif; /* Police de caractères du corps */
-    color:white;
+    background-image: url('chemin/vers/votre/image.jpg');
+  background-size: cover; /* Ajuste la taille de l'image pour remplir tout l'élément */
+  background-repeat: no-repeat; /* Empêche la répétition de l'image */
+  background-attachment: fixed; /* Fixe l'image en arrière-plan (optionnel) */
 }
 
 /* Sélecteur de classe */
