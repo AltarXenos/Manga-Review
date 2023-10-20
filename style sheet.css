@@ -48,6 +48,13 @@ p {
   width: 500px;
 }
 
+img {
+  background-color: #ccda00;
+  padding: 10px;
+  display: inline-block;
+  width: 200px;
+}
+
 h2 {
     color: green;
 }
