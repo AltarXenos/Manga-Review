@@ -64,18 +64,18 @@ h2 {
     color: green;
 }
 
-p1 {
-  background-color: rgb(3,164,46);
+.text-container {
+  background-color: #f2f2f2;
   padding: 10px;
-  border-radius: 15px;
-  word-wrap: break-word;
-  width: 500px;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
 }
 
-h3 {
-  background-color: rgb(54,217,98);
-  padding: 10px;
-  border-radius: 15px;
-  word-wrap: break-word;
-  width: 500px;
+.text-container h3 {
+  font-size: calc(1rem + 0.5vw);
+}
+
+.text-container p {
+  font-size: calc(1rem + 0.25vw);
+  width: calc(10ch + 10vw);
 }
