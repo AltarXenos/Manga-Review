@@ -60,12 +60,6 @@ img {
   height: 600px;
 }
 
-h2 {
-    color: green;
-}
-
-
-
 p1, h3 {
   /* Crée un conteneur avec une largeur et une hauteur automatiques */
   width: auto;
@@ -81,67 +75,11 @@ p1, h3 {
   border-radius: 15px;
 }
 
-p, h3 {
-  /* Crée un conteneur avec une largeur et une hauteur automatiques */
-  width: auto;
-  height: auto;
-
-  /* Assure que le texte ne déborde pas du conteneur */
-  overflow: auto;
-
-  /* Ajoute une marge autour du texte */
-  padding: 10px;
-
-  /* Ajoute des coins arrondis au conteneur */
-  border-radius: 15px;
-}
-
-p {
+p1 {
   /* Style spécifique pour les éléments <p> */
   background-color: lightblue;
 }
-
-p, h3 {
-  /* Crée un conteneur avec une largeur et une hauteur automatiques */
-  width: auto;
-  height: auto;
-
-  /* Assure que le texte ne déborde pas du conteneur */
-  overflow: auto;
-
-  /* Ajoute une marge autour du texte */
-  padding: 10px;
-
-  /* Ajoute des coins arrondis au conteneur */
-  border-radius: 15px;
-}
-
-p {
-  /* Style spécifique pour les éléments <p> */
-  background-color: lightblue;
-}
-
-p, h3 {
-  /* Crée un conteneur avec une largeur et une hauteur automatiques */
-  width: auto;
-  height: auto;
-
-  /* Assure que le texte ne déborde pas du conteneur */
-  overflow: auto;
-
-  /* Ajoute une marge autour du texte */
-  padding: 10px;
-
-  /* Ajoute des coins arrondis au conteneur */
-  border-radius: 15px;
-}
-
-p {
-  /* Style spécifique pour les éléments <p> */
-  background-color: lightblue;
-}
-
 h3 {
-  /* Style spécifique pour les éléments <h3> */
+  /* Style spécifique pour les éléments <p> */
   background-color: lightgreen;
 }
