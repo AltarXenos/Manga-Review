@@ -60,13 +60,11 @@ img {
   height: 600px;
 }
 
-p1 {
-  line-height: 1.5;
-  background-color: rgb(241,73,122);
-  padding: 10px;
-  border-radius: 15px;
-  word-wrap: break-word;
-  width: 500px; 
+p.bulle {
+    background: rgba(249,129,215,0.7); /* Couleur de fond */
+    border-radius: 10px; /* Bordures arrondies */
+    padding: 10px; /* Espace intérieur */
+    /* Ajoutez ici d'autres styles selon vos besoins */
 }
 
 h3 {
