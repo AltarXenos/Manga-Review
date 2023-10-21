@@ -60,26 +60,18 @@ img {
   height: 600px;
 }
 
-p1, h3 {
-  /* Crée un conteneur avec une largeur et une hauteur automatiques */
-  width: auto;
-  height: auto;
-
-  /* Assure que le texte ne déborde pas du conteneur */
-  overflow: auto;
-
-  /* Ajoute une marge autour du texte */
-  padding: 10px;
-
-  /* Ajoute des coins arrondis au conteneur */
-  border-radius: 15px;
-}
-
 p1 {
-  /* Style spécifique pour les éléments <p> */
-  background-color: lightblue;
+  background-color: rgb(247,127,162);
+  padding: 10px;
+  border-radius: 15px;
+  word-wrap: break-word;
+  width: 500px;
 }
+
 h3 {
-  /* Style spécifique pour les éléments <p> */
-  background-color: lightgreen;
+  background-color: rgb(241,73,122);
+  padding: 10px;
+  border-radius: 15px;
+  word-wrap: break-word;
+  width: 500px;
 }
