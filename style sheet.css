@@ -64,18 +64,23 @@ h2 {
     color: green;
 }
 
-.text-container {
-  background-color: #f2f2f2;
-  padding: 10px;
-  border: 1px solid #ddd;
-  box-sizing: border-box;
+
+
+p1, h3 {
+  /* Crée un conteneur avec une largeur et une hauteur fixes */
+  width: 200px;
+  height: 200px;
+
+  /* Assure que le texte ne déborde pas du conteneur */
+  overflow: auto;
 }
 
-.text-container h3 {
-  font-size: calc(1rem + 0.5vw);
+p {
+  /* Style spécifique pour les éléments <p> */
+  background-color: lightblue;
 }
 
-.text-container p {
-  font-size: calc(1rem + 0.25vw);
-  width: calc(10ch + 10vw);
+h3 {
+  /* Style spécifique pour les éléments <h3> */
+  background-color: lightgreen;
 }
