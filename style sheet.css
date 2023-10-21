@@ -64,7 +64,8 @@ p.bulle {
     background: rgba(249,129,215,0.7); /* Couleur de fond */
     border-radius: 10px; /* Bordures arrondies */
     padding: 10px; /* Espace intérieur */
-    /* Ajoutez ici d'autres styles selon vos besoins */
+    word-wrap: break-word;
+    width: 500px;
 }
 
 h3 {
