@@ -75,3 +75,7 @@ h3 {
   word-wrap: break-word;
   width: 500px;
 }
+
+td.align-top {
+    vertical-align: top;
+}
