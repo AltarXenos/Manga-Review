@@ -75,3 +75,7 @@ h3 {
   word-wrap: break-word;
   width: 500px;
 }
+p1 {
+  word-wrap: break-word;
+  max-width: 500px;
+}
