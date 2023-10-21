@@ -65,7 +65,7 @@ p1 {
   padding: 10px;
   border-radius: 15px;
   word-wrap: break-word;
-  width: 500px;
+  max-width: 300px;
 }
 
 h3 {
@@ -74,8 +74,4 @@ h3 {
   border-radius: 15px;
   word-wrap: break-word;
   width: 500px;
-}
-p1 {
-  word-wrap: break-word;
-  max-width: 300px;
 }
