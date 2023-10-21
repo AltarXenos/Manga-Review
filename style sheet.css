@@ -61,11 +61,11 @@ img {
 }
 
 p1 {
-  background-color: rgb(247,127,162);
+ background-color: rgb(241,73,122);
   padding: 10px;
   border-radius: 15px;
   word-wrap: break-word;
-  max-width: 300px;
+  width: 500px; 
 }
 
 h3 {
