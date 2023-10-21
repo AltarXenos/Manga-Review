@@ -61,7 +61,8 @@ img {
 }
 
 p1 {
- background-color: rgb(241,73,122);
+  line-height: 1.5;
+  background-color: rgb(241,73,122);
   padding: 10px;
   border-radius: 15px;
   word-wrap: break-word;
