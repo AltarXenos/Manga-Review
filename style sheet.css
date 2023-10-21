@@ -75,7 +75,8 @@ p1, h3 {
   overflow: auto;
 }
 
-p {
+p1
+{
   /* Style spécifique pour les éléments <p> */
   background-color: lightblue;
 }
