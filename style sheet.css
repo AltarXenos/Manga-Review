@@ -81,6 +81,10 @@ td.align-top {
     vertical-align: top;
 }
 
+td.align-left {
+  horizontal-align: left;
+}
+
 .button {
   border: none;
   color: white;
