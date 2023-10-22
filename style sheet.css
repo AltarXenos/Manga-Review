@@ -61,7 +61,7 @@ img {
 }
 
 p.bulle {
-    background: rgba(249,129,215,0.6); /* Couleur de fond */
+    background: rgba(31,230,0,0.7); /* Couleur de fond */
     border-radius: 10px; /* Bordures arrondies */
     padding: 10px; /* Espace intérieur */
     word-wrap: break-word;
@@ -69,7 +69,7 @@ p.bulle {
 }
 
 h3 {
-  background-color: rgb(241,73,122);
+  background-color: rgba(101,255,77,0.7);
   padding: 10px;
   border-radius: 15px;
   word-wrap: break-word;
