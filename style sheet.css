@@ -30,7 +30,7 @@ a:hover {
 }
 
 h1 {
-  background-color: #ccda00;
+  background-color: rgba(255,137,17,0.6);
   padding: 10px;
   display: inline-block;
   border-radius: 15px;
@@ -51,13 +51,6 @@ p {
   border-radius: 15px;
   word-wrap: break-word;
   width: 500px;
-}
-
-img {
-  background-color: rgba(255,110,19,0.4);
-  padding: 10px;
-  display: inline-block;
-  height: 600px;
 }
 
 p.bulle {
