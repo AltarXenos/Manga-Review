@@ -46,7 +46,7 @@ td, th {
 }
 
 p {
-  background-color: rgba(243,85,85,0.8);
+  background-color: rgba(243,85,85,0.6);
   padding: 10px;
   border-radius: 15px;
   word-wrap: break-word;
@@ -54,14 +54,14 @@ p {
 }
 
 img {
-  background-color: #ccda00;
+  background-color: rgba(255,110,19,0.4);
   padding: 10px;
   display: inline-block;
   height: 600px;
 }
 
 p.bulle {
-    background: rgba(249,129,215,0.7); /* Couleur de fond */
+    background: rgba(249,129,215,0.6); /* Couleur de fond */
     border-radius: 10px; /* Bordures arrondies */
     padding: 10px; /* Espace intérieur */
     word-wrap: break-word;
