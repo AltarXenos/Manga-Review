@@ -96,6 +96,7 @@ td.align-top {
 .button1 {
   background-color: white; 
   color: black; 
+  text-decoration:none;
   border: 2px solid #008CBA;
 }
 a {
