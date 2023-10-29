@@ -1,17 +1,18 @@
 /* Fiche de style CSS */
 
 
-@keyframes background-slide {
-    0% {background-image: url("Background numéro 1.jpg");}
-    50% {background-image: url("Background numéro 2.jpg");}
-    100% {background-image: url("Background numéro 1.jpg");}
-}
 /* Sélecteur d'élément */
 body {
+  background-image: url('Background numéro 1.jpg');
+  transition: background-image 1s ease-in-out;
   animation: background-slide x linear infinite;
   background-size: cover; /* Ajuste la taille de l'image pour remplir tout l'élément */
   background-repeat: no-repeat; /* Empêche la répétition de l'image */
   background-attachment: fixed; /* Fixe l'image en arrière-plan (optionnel) */
+}
+
+body.change-bg {
+  background-image: url('background2.jpg');
 }
 
 /* Sélecteur de classe */
