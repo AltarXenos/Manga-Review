@@ -1,8 +1,14 @@
 /* Fiche de style CSS */
 
+
+@keyframes background-slide {
+    0% {background-image: url("Background numéro 1.jpg");}
+    50% {background-image: url("Background numéro 2.jpg");}
+    100% {background-image: url("Background numéro 1.jpg");}
+}
 /* Sélecteur d'élément */
 body {
-  background-image: url("Background-1.jpg");
+  animation: background-slide x linear infinite;
   background-size: cover; /* Ajuste la taille de l'image pour remplir tout l'élément */
   background-repeat: no-repeat; /* Empêche la répétition de l'image */
   background-attachment: fixed; /* Fixe l'image en arrière-plan (optionnel) */
@@ -110,3 +116,10 @@ a {
   background-color: #008CBA;
   color: white;
 }
+
+@keyframes background-slide {
+    0% {background-image: url("image1.jpg");}
+    50% {background-image: url("image2.jpg");}
+    100% {background-image: url("image1.jpg");}
+}
+
