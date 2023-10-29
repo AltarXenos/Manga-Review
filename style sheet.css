@@ -116,10 +116,3 @@ a {
   background-color: #008CBA;
   color: white;
 }
-
-@keyframes background-slide {
-    0% {background-image: url("image1.jpg");}
-    50% {background-image: url("image2.jpg");}
-    100% {background-image: url("image1.jpg");}
-}
-
