@@ -112,3 +112,8 @@ a {
   background-color: #008CBA;
   color: white;
 }
+
+<header>
+		<h1>Titre de l'en-tête</h1>
+		<p>Description de l'en-tête</p>
+	</header>
