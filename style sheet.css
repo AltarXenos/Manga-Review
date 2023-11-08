@@ -107,6 +107,7 @@ td.align-left {
 }
 a {
   text-decoration:none;
+  target:_blank;
 }
 .button1:hover {
   background-color: #008CBA;
