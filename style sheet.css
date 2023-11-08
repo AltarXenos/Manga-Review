@@ -113,7 +113,8 @@ a {
   color: white;
 }
 
-<header>
-		<h1>Titre de l'en-tête</h1>
-		<p>Description de l'en-tête</p>
-	</header>
+header {
+	background-color: #333;
+	color: #fff;
+	padding: 20px;
+}
