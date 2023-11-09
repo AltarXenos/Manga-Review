@@ -1,9 +1,11 @@
-const body = document.querySelector('body');
+const button = document.querySelector('button');
 
-body.addEventListener('mouseover', () => {
-  body.style.backgroundImage = 'Background numéro 1.jpg';
+button.addEventListener('mouseover', () => {
+  button.style.transform = 'scale(1.1)';
+  button.style.boxShadow = '0 0 10px #fff';
 });
 
-body.addEventListener('mouseout', () => {
-  body.style.backgroundImage = 'Background numéro 2.jpg';
+button.addEventListener('mouseout', () => {
+  button.style.transform = 'scale(1)';
+  button.style.boxShadow = 'none';
 });
