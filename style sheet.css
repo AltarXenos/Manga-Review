@@ -1,5 +1,8 @@
 /* Fiche de style CSS */
-
+html, body {
+  height: 100%;
+  width: 100%;
+}
 
 /* Sélecteur d'élément */
 body {
@@ -9,6 +12,7 @@ body {
   background-size: cover; /* Ajuste la taille de l'image pour remplir tout l'élément */
   background-repeat: no-repeat; /* Empêche la répétition de l'image */
   background-attachment: fixed; /* Fixe l'image en arrière-plan (optionnel) */
+  border: 10px solid black;
 }
 
 body.change-bg {
