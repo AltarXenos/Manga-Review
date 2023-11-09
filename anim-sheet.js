@@ -1,9 +1,9 @@
 const body = document.querySelector('body');
 
 body.addEventListener('mouseover', () => {
-  body.style.backgroundColor = 'red';
+  body.style.backgroundImage = 'Background numéro 1.jpg';
 });
 
 body.addEventListener('mouseout', () => {
-  body.style.backgroundColor = '';
+  body.style.backgroundImage = 'Background numéro 2.jpg';
 });
