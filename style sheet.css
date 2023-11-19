@@ -92,7 +92,7 @@ a {
 }
 
 .button1 {
-  background-color: #4CAF50; /* Couleur de fond */
+  background-color: red; /* Couleur de fond */
   border: none; /* Supprimer la bordure */
   color: white; /* Couleur du texte */
   padding: 15px 32px; /* Ajouter un remplissage */
@@ -105,5 +105,5 @@ a {
 }
 
 .button1:hover {
-  background-color: #3e8e41; /* Nouvelle couleur de fond */
+  background-color: yellow; /* Nouvelle couleur de fond */
 }
