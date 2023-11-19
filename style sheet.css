@@ -90,3 +90,20 @@ td.align-left {
 a {
   text-decoration:none;
 }
+
+.button1 {
+  background-color: #4CAF50; /* Couleur de fond */
+  border: none; /* Supprimer la bordure */
+  color: white; /* Couleur du texte */
+  padding: 15px 32px; /* Ajouter un remplissage */
+  text-align: center; /* Centrer le texte */
+  text-decoration: none; /* Supprimer le soulignage du lien */
+  display: inline-block; /* Afficher en ligne */
+  font-size: 16px; /* Taille de police */
+  margin: 4px 2px; /* Ajouter une marge */
+  cursor: pointer; /* Ajouter un curseur */
+}
+
+.button:hover {
+  background-color: #3e8e41; /* Nouvelle couleur de fond */
+}
