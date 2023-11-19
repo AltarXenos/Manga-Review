@@ -104,6 +104,6 @@ a {
   cursor: pointer; /* Ajouter un curseur */
 }
 
-.button:hover {
+.button1:hover {
   background-color: #3e8e41; /* Nouvelle couleur de fond */
 }
