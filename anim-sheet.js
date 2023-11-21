@@ -1,8 +1,8 @@
 document.addEventListener('DOMContentLoaded', function() {
-  var contentDiv = document.getElementById('content');
-
   // Fonction pour mettre à jour la taille de la div en fonction de la taille de la page
   function updateSize() {
+    var contentDiv = document.getElementById('content');
+    
     // Vérifier si l'élément existe
     if (contentDiv) {
       contentDiv.style.width = window.innerWidth + 'px';
@@ -16,17 +16,16 @@ document.addEventListener('DOMContentLoaded', function() {
   // Attachez la fonction à l'événement de redimensionnement de la fenêtre
   window.addEventListener('resize', updateSize);
 
-  contentDiv.addEventListener('mouseenter', function() {
-    // Vérifier si l'élément existe
-    if (contentDiv) {
-      contentDiv.style.backgroundImage = "url('Background numéro 1.jpg')";
-    }
-  });
+  var contentDiv = document.getElementById('content');
 
-  contentDiv.addEventListener('mouseleave', function() {
-    // Vérifier si l'élément existe
-    if (contentDiv) {
-      contentDiv.style.backgroundImage = "url('Background numéro 2.jpg')";
-    }
-  });
+  // Vérifier si l'élément existe avant d'attacher les gestionnaires d'événements
+  if (contentDiv) {
+    contentDiv.addEventListener('mouseenter', function() {
+      contentDiv.style.backgroundImage = "url('chemin/vers/votre/image-alternative.jpg')";
+    });
+
+    contentDiv.addEventListener('mouseleave', function() {
+      contentDiv.style.backgroundImage = "url('chemin/vers/votre/image-initiale.jpg')";
+    });
+  }
 });
