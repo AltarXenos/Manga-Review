@@ -11,14 +11,20 @@
       margin: 0;
     }
 
-    #content {
-      height: 100vh;
-      background-image: url('Background numéro 2.jpg');
-      background-size: cover;
-      background-size: 100% 100%;
-      background-attachment: fixed;
-      transition: background-image 0.5s ease-in-out;
-    }
+   #content {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-image: url('chemin/vers/votre/image-initiale.jpg');
+  background-size: cover;
+  transition: background-image 0.5s ease-in-out;
+}
+
+#content:hover {
+  background-image: url('chemin/vers/votre/image-alternative.jpg');
+}
   </style>
     </head>
     <body>
