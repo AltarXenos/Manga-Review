@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', function() {
   function changeBackground(imageUrl) {
-    document.body.style.backgroundImage = "url('" + imageUrl + "')";
+    document.body.style.backgroundImage = "url('"Background numéro 2"')";
   }
 
   var contentDiv = document.getElementById('content');
