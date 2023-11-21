@@ -1,5 +1,14 @@
 /* Fiche de style CSS */
 
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url('chemin/vers/votre/image.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: Arial, sans-serif;
+}
+
 /* Sélecteur de classe */
 .texte-rouge {
     color: rgb(255, 0, 0); /* Couleur du texte */
