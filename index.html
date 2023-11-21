@@ -3,33 +3,52 @@
 	<title>Manga Review</title>
         <link rel="stylesheet" href="style sheet.css"/>
 
-	 <meta charset="UTF-8">
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Ma Page Web</title>
+  <title>Mon Site Web</title>
   <style>
     body {
       margin: 0;
+      font-family: Arial, sans-serif;
     }
 
-   #content {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100vw;
-  height: 100vh;
-  background-image: url('chemin/vers/votre/image-initiale.jpg');
-  background-size: cover;
-  transition: background-image 0.5s ease-in-out;
-}
+    #welcome-section {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100vw;
+      height: 100vh;
+      background-image: url('chemin/vers/votre/image-initiale.jpg');
+      background-size: cover;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      color: white;
+      font-size: 24px;
+    }
 
-#content:hover {
-  background-image: url('chemin/vers/votre/image-alternative.jpg');
-}
+    #welcome-section:hover {
+      background-image: url('chemin/vers/votre/image-alternative.jpg');
+    }
+
+    #main-content {
+      margin-top: 100vh; /* Ajoutez une marge pour le contenu principal */
+      padding: 20px;
+    }
   </style>
     </head>
     <body>
 
-        <div id="content">
+	    
+<div id="#welcome-section">
+	<h1>Bienvenue sur manga review</h1>
+</div>
+
+
+<div id="main-content">
 	    
         <table style="border-spacing: 20px;">
   <tr>
@@ -132,7 +151,10 @@
     </td>
   </tr>
 </table>
-    </div>
-    <script src="anim-sheet.js"></script>
+
+</div>
+    
+	    
+<script src="anim-sheet.js"></script>
     </body>
 </html>
