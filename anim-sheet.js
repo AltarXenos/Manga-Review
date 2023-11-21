@@ -3,8 +3,11 @@ document.addEventListener('DOMContentLoaded', function() {
 
   // Fonction pour mettre à jour la taille de la div en fonction de la taille de la page
   function updateSize() {
-    contentDiv.style.width = window.innerWidth + 'px';
-    contentDiv.style.height = window.innerHeight + 'px';
+    // Vérifier si l'élément existe
+    if (contentDiv) {
+      contentDiv.style.width = window.innerWidth + 'px';
+      contentDiv.style.height = window.innerHeight + 'px';
+    }
   }
 
   // Mettez à jour la taille initiale
@@ -14,10 +17,16 @@ document.addEventListener('DOMContentLoaded', function() {
   window.addEventListener('resize', updateSize);
 
   contentDiv.addEventListener('mouseenter', function() {
-    contentDiv.style.backgroundImage = "url('chemin/vers/votre/image-alternative.jpg')";
+    // Vérifier si l'élément existe
+    if (contentDiv) {
+      contentDiv.style.backgroundImage = "url('Background numéro 1.jpg')";
+    }
   });
 
   contentDiv.addEventListener('mouseleave', function() {
-    contentDiv.style.backgroundImage = "url('chemin/vers/votre/image-initiale.jpg')";
+    // Vérifier si l'élément existe
+    if (contentDiv) {
+      contentDiv.style.backgroundImage = "url('Background numéro 2.jpg')";
+    }
   });
 });
