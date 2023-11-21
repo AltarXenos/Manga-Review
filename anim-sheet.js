@@ -1,11 +1,12 @@
-const button = document.querySelector('button');
 
-button.addEventListener('mouseover', () => {
-  button.style.transform = 'scale(1.1)';
-  button.style.boxShadow = '0 0 10px #fff';
-});
+document.addEventListener('DOMContentLoaded', function() {
+  var contentDiv = document.getElementById('content');
 
-button.addEventListener('mouseout', () => {
-  button.style.transform = 'scale(1)';
-  button.style.boxShadow = 'none';
+  contentDiv.addEventListener('mouseover', function() {
+    contentDiv.style.backgroundImage = "url('chemin/vers/votre/image-alternative.jpg')";
+  });
+
+  contentDiv.addEventListener('mouseout', function() {
+    contentDiv.style.backgroundImage = "url('chemin/vers/votre/image-initiale.jpg')";
+  });
 });
