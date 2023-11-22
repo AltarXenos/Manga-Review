@@ -8,7 +8,7 @@ body, html {
 .animated-background {
   width: 100%;
   height: 100%;
-  background-image: url('Background numéro 1.jpg'); /* Remplacez 'image1.jpg' par le chemin de votre première image */
+  background-image: url('Background numéro 3.jpg'); /* Remplacez 'image1.jpg' par le chemin de votre première image */
   background-size: cover;
   transition: background-image 0.5s ease; /* Transition pour une animation fluide de 0.5 secondes */
 }
