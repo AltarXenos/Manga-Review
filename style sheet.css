@@ -1,13 +1,16 @@
 /* Fiche de style CSS */
 
-body {
+body, html {
+  height: 100%;
   margin: 0;
-  padding: 0;
-  background-image: url('Background numéro 2.jpg');
+}
+
+.animated-background {
+  width: 100%;
+  height: 100%;
+  background-image: url('Background numéro 1.jpg'); /* Remplacez 'image1.jpg' par le chemin de votre première image */
   background-size: cover;
-  background-attachment: fixed;
-  font-family: Arial, sans-serif;
-  background-size: contain;
+  transition: background-image 0.5s ease; /* Transition pour une animation fluide de 0.5 secondes */
 }
 
 /* Sélecteur de classe */
