@@ -13,6 +13,16 @@ body, html {
   transition: background-image 0.5s ease; /* Transition pour une animation fluide de 0.5 secondes */
 }
 
+.container {
+    text-align: center;
+}
+
+.centered-text {
+    display: inline-block;
+    font-size: 24px; /* Ajustez la taille de la police selon vos besoins */
+    opacity: 0; /* Le texte sera invisible au départ */
+}
+
 /* Sélecteur de classe */
 .texte-rouge {
     color: rgb(255, 0, 0); /* Couleur du texte */
