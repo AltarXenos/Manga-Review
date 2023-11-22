@@ -1,19 +1,16 @@
-// Définir la fonction changeBackground en dehors de l'événement DOMContentLoaded
-function changeBackground(imageUrl) {
-  document.body.style.backgroundImage = "url(" + imageUrl + ")";
-}
+// Attendez que le DOM soit prêt
+document.addEventListener("DOMContentLoaded", function () {
+  // Sélectionnez l'élément avec l'ID "animated-background"
+  var animatedBackground = document.getElementById("animated-background");
 
-document.addEventListener('DOMContentLoaded', function() {
-  var contentDiv = document.getElementById('content');
+  // Ajoutez un écouteur d'événements pour l'événement "mouseover"
+  animatedBackground.addEventListener("mouseover", function () {
+    // Changez l'image de fond lors du survol
+    animatedBackground.style.backgroundImage = "url('Background numéro 1')"; /* Remplacez 'image2.jpg' par le chemin de votre deuxième image */
+  });
 
-  // Attacher les gestionnaires d'événements seulement si l'élément existe
-  if (contentDiv) {
-    contentDiv.addEventListener('mouseenter', function() {
-      changeBackground('Background numéro 2.jpg');
-    });
-
-    contentDiv.addEventListener('mouseleave', function() {
-      changeBackground('Background numéro 1.jpg');
-    });
-  }
+  // Ajoutez un écouteur d'événements pour l'événement "mouseout" (pour revenir à l'image d'origine)
+  animatedBackground.addEventListener("mouseout", function () {
+    animatedBackground.style.backgroundImage = "url('Background numéro 2.jpg')";
+  });
 });
