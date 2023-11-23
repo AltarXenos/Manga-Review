@@ -13,12 +13,13 @@ body, html {
 .header {
       position: fixed;
       width: 100%;
-      color: white;
+      color: rgba(0,0,0,0.5);
       -webkit-transform: scale(2, 1);
   -moz-transform: scale(2, 1);
   -o-transform: scale(2, 1);
       height:70px;
       background-color: black;
+      
 }
 
 .animated-background {
