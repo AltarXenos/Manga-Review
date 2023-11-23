@@ -10,7 +10,7 @@ body, html {
   margin: 0;
   background-image: url('bg2.jpg');
   background-size: cover;
-  transition: background-image 1.5s ease; /* Transition pour une animation fluide de 0.5 secondes */
+  transition: background-image 0.8s ease; /* Transition pour une animation fluide de 0.5 secondes */
 }
 
 .container {
