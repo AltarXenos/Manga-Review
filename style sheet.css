@@ -10,6 +10,12 @@ body, html {
   margin: 0;
 }
 
+.header {
+      position: fixed;
+      height:70px;
+      background-color: black;
+}
+
 .animated-background {
   height: 100%;
   margin: 0;
