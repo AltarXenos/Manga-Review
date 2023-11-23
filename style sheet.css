@@ -10,6 +10,10 @@ body, html {
   margin: 0;
 }
 
+#bvn {
+      margin: 0,80;
+}
+
 .header {
       position: fixed;
       width: 100%;
