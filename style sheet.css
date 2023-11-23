@@ -1,7 +1,7 @@
 /* Fiche de style CSS */
 #content-container {
       /* Styles spécifiques à la partie "contenu" de la page */
-      background-color: #f0f0f0; /* Exemple de couleur de fond */
+      background-image: url("bg3.jpg") /* Exemple de couleur de fond */
       padding: 20px;
     }
 
