@@ -12,6 +12,8 @@ body, html {
 
 .header {
       position: fixed;
+      width: 100%;
+      color: white;
       height:70px;
       background-color: black;
 }
