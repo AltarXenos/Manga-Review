@@ -1,4 +1,9 @@
 /* Fiche de style CSS */
+#content-container {
+      /* Styles spécifiques à la partie "contenu" de la page */
+      background-color: #f0f0f0; /* Exemple de couleur de fond */
+      padding: 20px;
+    }
 
 body, html {
   height: 100%;
