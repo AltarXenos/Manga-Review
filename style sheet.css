@@ -1,38 +1,17 @@
-/* Fiche de style CSS */
-
-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 10px 20px;
-  background-color: rgba(0,0,0,0.4);
+#bosstitle {
+    opacity: 0;
+    animation: fadeIn 1s ease-out forwards;
+    text-align: center;
+    margin-top: 5px;
 }
 
-.profile-picture {
-  width: 50px; /* Ajustez la taille de votre photo de profil selon vos besoins */
-  height: 50px;
-  border-radius: 50%; /* Pour rendre l'image ronde */
+.titrebarreboss {
+    color: rgba(255, 255, 255, 0.649);
+    font-size: 2.0rem;
+    text-shadow: 5px 5px 15px rgb(255, 255, 255);
+    text-align: center;
+    font-family: un;
 }
-
-.title-container h1 {
-  font-family: 'Nom de votre police', sans-serif; /* Remplacez 'Nom de votre police' par le nom de la police que vous souhaitez utiliser */
-  margin: 0;
-}
-
-.credit-container a {
-  text-decoration: none;
-  color: #333;
-}
-
-.credit-container a:hover {
-  text-decoration: underline;
-}
-
-#content-container {
-      /* Styles spécifiques à la partie "contenu" de la page */
-      background-image: url("bg3.jpg") /* Exemple de couleur de fond */
-      padding: 20px;
-    }
 
 body, html {
   height: 100%;
