@@ -1,83 +1,28 @@
-
-
-          font-family: un;
-        .titrebarreboss {
-          color: rgba(255, 255, 255, 0.649);
-          font-size: 2.0rem;
-          text-shadow: 5px 5px 15px rgb(255, 255, 255);
-          text-align: center;
-          font-family: un;
-        }
-
-body, html {
-  height: 100%;
+body {
   margin: 0;
+  font-family: Arial, sans-serif;
 }
 
-#bvn {
-      margin: 0,80;
+header {
+  background-color: rgba(255, 255, 255, 0.8); /* Couleur de fond semi-transparente */
+  padding: 10px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000; /* Pour s'assurer que l'en-tête reste au-dessus du reste du contenu */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Ombre légère */
 }
 
-#barre_fixe {
-        position: fixed;
-        margin-top: 0px;
-        margin-right: 0%;
-        margin-left: 0%;
-        width: 100%;
-        background: #000000ad;
-        text-align: left;
-        font-family: techno1 ;
-        line-height: 1.9;   
-        z-index:9;
-        }
-        
-        /*  titre barre fixe */
-        .titrebarre {
-          color: rgba(255, 255, 255, 0.649);
-          font-size: 2.0rem;
-          text-shadow: 5px 5px 15px rgb(255, 255, 255);
-          text-align: center;
-          font-family: un;
-        }
-        .titrebarreboss {
-          color: rgba(255, 255, 255, 0.649);
-          font-size: 2.0rem;
-          text-shadow: 5px 5px 15px rgb(255, 255, 255);
-          text-align: center;
-          font-family: un;
-        }
-        
+.logo-container {
+  width: 50px; /* Ajustez la taille du conteneur du logo selon vos besoins */
+  height: 50px;
+  border-radius: 50%; /* Pour obtenir une forme de cercle */
+  overflow: hidden; /* Pour cacher les parties du logo qui dépassent du cercle */
+}
 
-
-
-/* logo dans la barre fixe */
-        .bosslogo2{
-          height: 50px;
-
-          text-align: left;
-          justify-content: left;
-          justify-content: left;
-          align-items: left;
-          float: left;
-
-          margin-right: 5px;
-          margin-left: 5px;
-          margin-bottom: 5px;
-          margin-top: -50px;
-
-          /* position: fixed; */
-        }
-
-.header {
-      position: fixed;
-      width: 100%;
-      color: rgba(0,0,0,0.5);
-      -webkit-transform: scale(2, 1);
-  -moz-transform: scale(2, 1);
-  -o-transform: scale(2, 1);
-      height:70px;
-      background-color: black;
-      
+.logo-container img {
+  width: 100%; /* Pour remplir complètement le conteneur */
+  height: auto; /* Pour conserver les proportions du logo */
 }
 
 .animated-background {
