@@ -44,6 +44,11 @@ header {
       /* Ajoutez ici les propriétés de style pour votre div */
       background-image: url('bg3.jpg');
       background-size: cover;
+      background-attachment: fixed; /* Fixe l'image pendant le défilement */
+      /* Ajoutez d'autres styles au besoin */
+      width: 100%;
+      height: 500px; /* Ajustez la hauteur en fonction de vos besoins */
+}
 }
 
 .centered-text {
