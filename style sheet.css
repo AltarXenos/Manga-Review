@@ -40,6 +40,12 @@ header {
     text-align: center;
 }
 
+#monDiv {
+      /* Ajoutez ici les propriétés de style pour votre div */
+      background-image: url('bg3.jpg');
+      background-size: cover;
+}
+
 .centered-text {
     display: inline-block;
     font-size: 24px;
