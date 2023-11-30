@@ -62,6 +62,8 @@ header {
 #conteneur-principal {
     width: 80%; /* Largeur du conteneur principal */
     margin: auto; /* Centrer le conteneur principal */
+    height: auto; /* Ajustez la hauteur en fonction de votre contenu */
+    overflow: auto;
 }
 
 /* Sélecteur de pseudo-classe */
