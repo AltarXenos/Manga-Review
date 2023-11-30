@@ -4,7 +4,7 @@ body {
 }
 
 header {
-  background-color: rgba(00, 00, 00, 0.8); /* Couleur de fond semi-transparente */
+  background-color: rgba(0, 0, 0, 0.7); /* Couleur de fond semi-transparente */
   padding: 10px;
   position: fixed;
   width: 100%;
