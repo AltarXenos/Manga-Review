@@ -10,7 +10,7 @@ header {
   width: 100%;
   top: 0;
   z-index: 1000; /* Pour s'assurer que l'en-tête reste au-dessus du reste du contenu */
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Ombre légère */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Ombre légère */
 }
 
 .logo-container {
