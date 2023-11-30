@@ -23,6 +23,7 @@ header {
 .logo-container img {
   width: 100%; /* Pour remplir complètement le conteneur */
   height: auto; /* Pour conserver les proportions du logo */
+  object-fit: contain;
 }
 
 .animated-background {
