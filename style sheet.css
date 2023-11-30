@@ -38,10 +38,6 @@ header {
 
 .container {
     text-align: center;
-    background-image: url('bg3.jpg');
-    width: 100%;
-    height: 200px;
-    background-attachment: scroll;
 }
 
 .centered-text {
