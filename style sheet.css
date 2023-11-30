@@ -1,6 +1,8 @@
 body {
   margin: 0;
   font-family: Arial, sans-serif;
+  background-image: url("bg3.jpg");
+  position: fixed;
 }
 
 header {
