@@ -33,11 +33,14 @@ header {
   margin: 0;
   background-image: url('bg2.jpg');
   background-size: cover;
-  transition: background-image 0.8s ease; /* Transition pour une animation fluide de 0.5 secondes */
+  transition: background-image 0.8s ease;
+  z-index: 3
+  /* Transition pour une animation fluide de 0.5 secondes */
 }
 
 .container {
     text-align: center;
+    z-index: 1
 }
 
 .centered-text {
