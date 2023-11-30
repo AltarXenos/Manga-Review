@@ -58,14 +58,6 @@ header {
     color: rgb(255, 0, 0); /* Couleur du texte */
 }
 
-/* Sélecteur d'ID */
-#conteneur-principal {
-    width: 80%; /* Largeur du conteneur principal */
-    margin: auto; /* Centrer le conteneur principal */
-    height: auto; /* Ajustez la hauteur en fonction de votre contenu */
-    overflow: auto;
-}
-
 /* Sélecteur de pseudo-classe */
 a:hover {
     color: orange; /* Couleur des liens au survol */
