@@ -14,8 +14,8 @@ header {
 }
 
 .logo-container {
-  width: 200px; /* Ajustez la taille du conteneur du logo selon vos besoins */
-  height: 200px;
+  width: 80px; /* Ajustez la taille du conteneur du logo selon vos besoins */
+  height: 80px;
   border-radius: 50%; /* Pour obtenir une forme de cercle */
   overflow: hidden; /* Pour cacher les parties du logo qui dépassent du cercle */
 }
