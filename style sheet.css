@@ -35,20 +35,22 @@ header {
 
 .animated-background {
   height: 100vh;
+  width: 100%
   margin: 0;
   background-image: url('bg2.jpg');
   background-size: cover;
   transition: background-image 0.8s ease;
-  z-index: 3
+  z-index: 3;
   /* Transition pour une animation fluide de 0.5 secondes */
 }
 
 .container {
     height: auto;
+    width: 100%;
     background-image: url("bg3.jpg");
     overflow: auto;
     text-align: center;
-    z-index: 1
+    z-index: 1;
 }
 
 .centered-text {
