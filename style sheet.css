@@ -1,15 +1,11 @@
 body, html {
   margin: 0;
   overflow: auto;
-  height: auto;
+  height: 100%;
   font-family: Arial, sans-serif;
+  background-image: url("bg3.jpg");
   position: fixed;
 }
-
-.centered-text{
-  text-align: center;
-}
-
 header {
   background-color: rgba(0, 0, 0, 0.7); /* Couleur de fond semi-transparente */
   padding: 10px;
@@ -19,54 +15,54 @@ header {
   z-index: 1000; /* Pour s'assurer que l'en-tête reste au-dessus du reste du contenu */
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Ombre légère */
 }
-
 .logo-container {
   width: 80px; /* Ajustez la taille du conteneur du logo selon vos besoins */
   height: 80px;
   border-radius: 50%; /* Pour obtenir une forme de cercle */
   overflow: hidden; /* Pour cacher les parties du logo qui dépassent du cercle */
 }
-
 .logo-container img {
   width: 100%; /* Pour remplir complètement le conteneur */
   height: auto; /* Pour conserver les proportions du logo */
   object-fit: contain;
 }
-
 .animated-background {
   height: 100vh;
   margin: 0;
   background-image: url('bg2.jpg');
   background-size: cover;
   transition: background-image 0.8s ease;
-  z-index: 3;
+  z-index: 3
   /* Transition pour une animation fluide de 0.5 secondes */
 }
-
 .container {
     height: auto;
-    background-image: url("bg3.jpg");
     overflow: auto;
     text-align: center;
-    z-index: 1;
+    z-index: 1
 }
-
 .centered-text {
     display: inline-block;
     font-size: 24px;
     opacity: 0; /* Le texte sera invisible au départ */
 }
-
 /* Sélecteur de classe */
 .texte-rouge {
     color: rgb(255, 0, 0); /* Couleur du texte */
+}
+
+/* Sélecteur d'ID */
+#conteneur-principal {
+    width: 80%; /* Largeur du conteneur principal */
+    margin: auto; /* Centrer le conteneur principal */
+    height: auto; /* Ajustez la hauteur en fonction de votre contenu */
+    overflow: auto;
 }
 
 /* Sélecteur de pseudo-classe */
 a:hover {
     color: orange; /* Couleur des liens au survol */
 }
-
 h1 {
   background-color: rgba(255,137,17,0.6);
   padding: 10px;
@@ -74,15 +70,12 @@ h1 {
   border-radius: 15px;
   width: calc(30ch + 60px);
 }
-
 table {
   border-collapse: collapse;
 }
-
 td, th {
   border: none;
 }
-
 p {
   background-color: rgba(243,85,85,0.6);
   padding: 10px;
@@ -90,7 +83,6 @@ p {
   word-wrap: break-word;
   width: 500px;
 }
-
 p.bulle {
     background: rgba(31,230,0,0.7); /* Couleur de fond */
     border-radius: 10px; /* Bordures arrondies */
@@ -98,7 +90,6 @@ p.bulle {
     word-wrap: break-word;
     width: 500px;
 }
-
 p.bulle2 {
     background: rgba(24,50,252,0.6); /* Couleur de fond */
     border-radius: 10px; /* Bordures arrondies */
@@ -106,7 +97,6 @@ p.bulle2 {
     word-wrap: break-word;
     width: 500px;
 }
-
 h3 {
   background-color: rgba(101,255,77,0.7);
   padding: 10px;
@@ -114,20 +104,15 @@ h3 {
   word-wrap: break-word;
   width: 500px;
 }
-
 td.align-top {
     vertical-align: top;
 }
-
 td.align-left {
   horizontal-align: left;
 }
-
-
 a {
   text-decoration:none;
 }
-
 .button1 {
   background-color: red; /* Couleur de fond */
   border: none; /* Supprimer la bordure */
@@ -140,7 +125,6 @@ a {
   margin: 4px 2px; /* Ajouter une marge */
   cursor: pointer; /* Ajouter un curseur */
 }
-
 .button1:hover {
   background-color: yellow; /* Nouvelle couleur de fond */
 }
